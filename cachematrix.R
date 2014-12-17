@@ -1,14 +1,14 @@
 ##  Matrix inversion is usually a costly computation and makeCacheMatrix & cacheSolve 
 ##  a pair of functions that cache the inverse of a matrix rather than compute it repeatedly.
+
 ##  makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse, 
 ##  computed by other other function "cacheSolve"
+
+
 #1  x=matrix()is a formal argument of makeCacheMatrix function and has default value of null matrix.
 #1  When we will give other matrix to this formal argument through "makeCacheMatrix(Matrix name)",
 #1  makeCacheMatrix will work on that formal argument.
 makeCacheMatrix<-function(x=matrix()){
-
-
-
 
      #2  "m" is local variable which is assigned NULL value.
      m<-NULL
